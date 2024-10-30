@@ -1,0 +1,149 @@
+.form-container {
+	max-width: 100%;
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+h2 {
+	text-align: center;
+	color: #03346E;
+}
+
+.form-group {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.form-group label {
+	flex-basis: 40%;
+	color: #333;
+	font-size: 16px;
+}
+
+.form-group input {
+	flex-basis: 55%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 14px;
+}
+
+.form-actions {
+	text-align: center;
+}
+
+.form-actions input[type="button"] {
+	background-color: #03346E;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.form-actions input[type="button"]:hover {
+	background-color: #006396; /* Darken on hover */
+}
+
+.error {
+	border-color: red;
+	color: red;
+}
+
+.error::placeholder {
+	color: red;
+}
+
+
+
+/* ResetPassword */
+#error-message {
+	color: red;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-left: 15px;
+}
+
+
+
+/* ExpenseReportPostStyle */
+.expense-report {
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #ccc; /* Add border around the report */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Contain floated children */
+}
+
+.expense-report-header,
+.expense-report-row {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Line between rows */
+}
+
+.expense-report-header {
+    background-color: #03346E;
+    color: white;
+    font-weight: bold;
+}
+
+.expense-header-item,
+.expense-item {
+    flex: 1; /* Distribute space evenly */
+    text-align: center; /* Center align text */
+}
+
+.expense-report-row:hover {
+    background-color: #f2f2f2; /* Highlight on hover */
+}
+
+.expense-report-row:last-child {
+    border-bottom: none; /* Remove last row border */
+}
+
+.expense-item a {
+    margin-left: 5px; /* Space between Edit and Delete links */
+    color: #03346E; /* Link color */
+}
+
+.expense-item a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+
+/* ReviewStyle */
+
+.form-container {
+    max-width: 800px; /* Adjust max width as necessary */
+    margin: 0 auto; /* Center the form */
+    padding: 20px;
+}
+
+.user-details,
+.address-information {
+    width: 100%;
+    border-collapse: collapse; /* Prevents double borders */
+}
+
+.user-details th, .address-information th {
+    background-color: #03346E;
+    color: white;
+    padding: 10px;
+}
+
+.user-details td, .address-information td {
+    padding: 8px;
+    border: 1px solid #ddd; /* Add border for table cells */
+}
+
+.form-actions {
+    text-align: center;
+    margin-top: 20px; /* Space above the button */
+}
+
